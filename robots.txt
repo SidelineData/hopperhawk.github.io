@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://hopperhawk.dev/sitemap.xml
