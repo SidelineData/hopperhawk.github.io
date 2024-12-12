@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://hopperhawk.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hopperhawk.dev/" rel="alternate" type="text/html" /><updated>2024-11-11T20:55:35+00:00</updated><id>https://hopperhawk.dev/feed.xml</id><title type="html">HopperHawk</title><subtitle>Real-Time Hopper Monitoring</subtitle><author><name>Joe Pecsi</name><email>joe@sidelinedata.com</email></author><entry><title type="html">Website, Blog, and v1.4 Launch!</title><link href="https://hopperhawk.dev/news/2024/11/11/hopperhawk-launch/" rel="alternate" type="text/html" title="Website, Blog, and v1.4 Launch!" /><published>2024-11-11T00:00:00+00:00</published><updated>2024-11-11T00:00:00+00:00</updated><id>https://hopperhawk.dev/news/2024/11/11/hopperhawk-launch</id><content type="html" xml:base="https://hopperhawk.dev/news/2024/11/11/hopperhawk-launch/">&lt;p&gt;Welcome! I have been working on HopperHawk on and off in my (limited) free time for a while now, and have finally reached a point where I can share it with others! In this post I will talk about the current hardware and my plans for version 2.0&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://hopperhawk.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hopperhawk.dev/" rel="alternate" type="text/html" /><updated>2024-12-12T11:20:31+00:00</updated><id>https://hopperhawk.dev/feed.xml</id><title type="html">HopperHawk</title><subtitle>Real-Time Hopper Monitoring</subtitle><author><name>Joe Pecsi</name><email>joe@sidelinedata.com</email></author><entry><title type="html">Website, Blog, and v1.0 Launch!</title><link href="https://hopperhawk.dev/news/2024/11/11/hopperhawk-launch/" rel="alternate" type="text/html" title="Website, Blog, and v1.0 Launch!" /><published>2024-11-11T00:00:00+00:00</published><updated>2024-11-11T00:00:00+00:00</updated><id>https://hopperhawk.dev/news/2024/11/11/hopperhawk-launch</id><content type="html" xml:base="https://hopperhawk.dev/news/2024/11/11/hopperhawk-launch/">&lt;p&gt;Welcome! I have been working on HopperHawk on and off in my (limited) free time for a while now, and have finally reached a point where I can share it with others!&lt;/p&gt;
 
-&lt;h2 id=&quot;version-14&quot;&gt;Version 1.4&lt;/h2&gt;
+&lt;h2 id=&quot;version-10&quot;&gt;Version 1.0&lt;/h2&gt;
 
 &lt;h3 id=&quot;specifications&quot;&gt;Specifications&lt;/h3&gt;
 &lt;ul&gt;
@@ -10,32 +10,8 @@
   &lt;li&gt;Has a BCM to support charging/load sharing&lt;/li&gt;
   &lt;li&gt;Includes two onboard LEDs to indicate power and charging status&lt;/li&gt;
   &lt;li&gt;USB-C port for power&lt;/li&gt;
+  &lt;li&gt;Headers for USB TTL communication (to flash) and to put into BOOT mode&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;limitations&quot;&gt;Limitations&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;The USB-C port is power only, no data!&lt;/li&gt;
-  &lt;li&gt;If you need to program/flash the board you’ll have to use a USB TTL cable and a jumper (to put into PROG mode)&lt;/li&gt;
-  &lt;li&gt;The LEDs are connected directly to voltage regulator and BCM, no way to adjust/toggle/configure them&lt;/li&gt;
-  &lt;li&gt;The LEDs are also poorly located and can be hard to see&lt;/li&gt;
-  &lt;li&gt;The board has a misprint on the bottom side of it (which you’ll never see in the case) that indicates the wrong model number/date and a useless QR code&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;why-is-it-like-this&quot;&gt;Why is it like this?&lt;/h3&gt;
-&lt;p&gt;HopperHawk started as a project for myself, and I never intended on releasing it out into the world. It’s also the first project that involved building custom PCBs, so when I started out I went as simple as possible to reduce complexity and cost (hence the lack of a serial communication chip). The project got some traction and more people were interested in it than I expected, so I am working on making it better :) Aside from the inconvenience of having to use a special cable to program the board, there is nothing functionally wrong with this batch so I decided to sell them at a discount (basically at cost) while I work on the changes for model 2.0&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;version-20&quot;&gt;Version 2.0&lt;/h2&gt;
-
-&lt;h3 id=&quot;what-to-expect&quot;&gt;What to expect&lt;/h3&gt;
-&lt;p&gt;For the most part, model 2.0 will be a minor upgrade with some modern conveniences added. It should be the same size and form factor making it backward compatible with the existing case that I designed. While still a work in progress, here are some of the main changes I am implementing:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Ditch the pins for programming and handling it all through the USB-C port&lt;/li&gt;
-  &lt;li&gt;Adding 90 degree surface mount LEDs for better visibility&lt;/li&gt;
-  &lt;li&gt;Making the LEDs programmable&lt;/li&gt;
-  &lt;li&gt;Adding a built in temperature sensor so you can get alerted if the hopper is getting too hot for the battery (which shouldn’t happen unless you have bigger issues)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;when-to-expect-it&quot;&gt;When to expect it&lt;/h3&gt;
-&lt;p&gt;I’m working on the hardware designs now, and expect to be placing in the next few weeks! As long as there are no major issues, my hope is to have them available for purchase by mid-December.&lt;/p&gt;</content><author><name>Joe Pecsi</name><email>joe@sidelinedata.com</email></author><category term="news" /><summary type="html">Welcome! I have been working on HopperHawk on and off in my (limited) free time for a while now, and have finally reached a point where I can share it with others! In this post I will talk about the current hardware and my plans for version 2.0</summary></entry></feed>
+&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
+&lt;p&gt;HopperHawk started as a project for myself, and I never intended on releasing it out into the world. It’s also the first project that involved building custom PCBs, so when I started out I went as simple as possible to reduce complexity and cost. The project gained some traction and more people were interested in it than I expected. After several iterations and hardware changes, it is finally in a place where I can share it with others!&lt;/p&gt;</content><author><name>Joe Pecsi</name><email>joe@sidelinedata.com</email></author><category term="news" /><summary type="html">Welcome! I have been working on HopperHawk on and off in my (limited) free time for a while now, and have finally reached a point where I can share it with others!</summary></entry></feed>
