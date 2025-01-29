@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://hopperhawk.dev/news/2024/11/11/hopperhawk-launch/</loc>
-<lastmod>2024-11-11T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://hopperhawk.dev/news/2024/12/30/v1-production/</loc>
-<lastmod>2024-12-30T00:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://hopperhawk.dev/contact/</loc>
 </url>
 <url>
 <loc>https://hopperhawk.dev/credit/</loc>
-</url>
-<url>
-<loc>https://hopperhawk.dev/blog/</loc>
 </url>
 <url>
 <loc>https://hopperhawk.dev/</loc>
@@ -25,8 +14,5 @@
 </url>
 <url>
 <loc>https://hopperhawk.dev/start/</loc>
-</url>
-<url>
-<loc>https://hopperhawk.dev/category/news/</loc>
 </url>
 </urlset>
